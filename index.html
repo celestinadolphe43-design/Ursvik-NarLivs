@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ursvik NärLivs – Din lokala matbutik i Sundbyberg. Öppet måndag–torsdag 07–22, fredag–lördag 07–23, söndag 09–22. DHL-ombud i butiken." />
+  <meta name="keywords" content="Ursvik NärLivs, matbutik, närbutik, Sundbyberg, DHL ombud, Gamla Enköpingsvägen" />
+
+  <!-- Open Graph (för länkdelning i sociala medier) -->
+  <meta property="og:title" content="Ursvik NärLivs" />
+  <meta property="og:description" content="Din lokala matbutik i Sundbyberg. Öppet 7 dagar i veckan." />
+  <meta property="og:type" content="website" />
+
+  <title>Ursvik NärLivs – Närbutik i Sundbyberg</title>
+
+  <!-- Länk till CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicon (enkel grön färg, skapas senare) -->
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+</head>
+<body>
+
+  <!-- ================================================
+       NAVIGATION
+  ================================================= -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        Ursvik <span>NärLivs</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#oppettider">Öppettider</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#hitta-hit">Hitta hit</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Öppna meny" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ================================================
+       HERO
+  ================================================= -->
+  <section class="hero" id="hem">
+    <div class="hero-content">
+      <div class="status-badge" id="statusBadge">
+        <!-- Fylls i av JavaScript -->
+      </div>
+      <h1>Din lokala matbutik</h1>
+      <p class="hero-address">Gamla Enköpingsvägen 124, Sundbyberg</p>
+      <div class="hero-badges">
+        <span class="badge badge-dhl">📦 DHL-ombud</span>
+        <span class="badge badge-open">Öppet 7 dagar</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       ÖPPETTIDER
+  ================================================= -->
+  <section class="section" id="oppettider">
+    <div class="container">
+      <h2 class="section-title">Öppettider</h2>
+      <table class="hours-table" id="hoursTable">
+        <tbody>
+          <tr data-days="1,2,3,4">
+            <td class="day-name">Måndag – torsdag</td>
+            <td class="day-time">07:00 – 22:00</td>
+          </tr>
+          <tr data-days="5">
+            <td class="day-name">Fredag</td>
+            <td class="day-time">07:00 – 23:00</td>
+          </tr>
+          <tr data-days="6">
+            <td class="day-name">Lördag</td>
+            <td class="day-time">09:00 – 23:00</td>
+          </tr>
+          <tr data-days="0">
+            <td class="day-name">Söndag</td>
+            <td class="day-time">09:00 – 22:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================================================
+       KONTAKT
+  ================================================= -->
+  <section class="section section-alt" id="kontakt">
+    <div class="container">
+      <h2 class="section-title">Kontakt &amp; adress</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-icon">📍</div>
+          <div class="info-label">Adress</div>
+          <div class="info-value">
+            Gamla Enköpingsvägen 124<br>
+            174 46 Sundbyberg
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📞</div>
+          <div class="info-label">Telefon</div>
+          <div class="info-value">
+            <a href="tel:0722777998">072-277 79 98</a>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📦</div>
+          <div class="info-label">DHL-ombud</div>
+          <div class="info-value">Lämna och hämta paket direkt i butiken</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       HITTA HIT (KARTA)
+  ================================================= -->
+  <section class="section" id="hitta-hit">
+    <div class="container">
+      <h2 class="section-title">Hitta hit</h2>
+      <div class="map-wrapper">
+        <iframe
+          title="Karta till Ursvik NärLivs"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2032.6!2d17.9386!3d59.3878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9f34c03eb03f%3A0xef230e2cd783ac02!2sUrsvik%20N%C3%A4rLivs!5e0!3m2!1ssv!2sse!4v1"
+          width="100%"
+          height="360"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       TJÄNSTER
+  ================================================= -->
+  <section class="section section-alt" id="tjanster">
+    <div class="container">
+      <h2 class="section-title">Tjänster</h2>
+      <div class="services">
+        <span class="service-tag">🛒 Dagligvaror</span>
+        <span class="service-tag">📦 DHL-ombud</span>
+        <span class="service-tag">🕐 Öppet 7 dagar</span>
+        <span class="service-tag">⚡ Snabb service</span>
+        <span class="service-tag">🧃 Drycker &amp; snacks</span>
+        <span class="service-tag">🥖 Bröd &amp; mejeri</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       FOOTER
+  ================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-name">Ursvik NärLivs</p>
+      <p>Gamla Enköpingsvägen 124, 174 46 Sundbyberg</p>
+      <p><a href="tel:0722777998">072-277 79 98</a></p>
+      <p class="footer-copy">&copy; <span id="year"></span> Ursvik NärLivs</p>
+    </div>
+  </footer>
+
+  <!-- Länk till JavaScript -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
